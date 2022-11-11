@@ -11,10 +11,6 @@ public class Cerchio extends Forma {
         return raggio * raggio * Math.PI;
     }
 
-    public double getRaggio() {
-        return raggio;
-    }
-
     @Override
     public String toString() {
         return "Cerchio [raggio=" + raggio + "]";
